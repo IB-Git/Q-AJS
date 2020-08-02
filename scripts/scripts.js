@@ -9,8 +9,8 @@ const allQuestionsAndAnswers = [
         d: "Jimmy",
       },
     ],
-    correct: a,
-    selected: "",
+    correct: "Jimmy",
+    selected: ""
   },
   {
     question: "Let us",
@@ -22,8 +22,8 @@ const allQuestionsAndAnswers = [
         d: "D",
       },
     ],
-    correct: c,
-    selected: "",
+    correct: "C",
+    selected: ""
   },
   {
     question: "Catch",
@@ -35,8 +35,8 @@ const allQuestionsAndAnswers = [
         d: "24",
       },
     ],
-    correct: b,
-    selected: "",
+    correct: "22",
+    selected: ""
   },
   {
     question: "Back in the 90's...",
@@ -48,8 +48,8 @@ const allQuestionsAndAnswers = [
         d: ", I was very famous",
       },
     ],
-    correct: c,
-    selected: "",
+    correct: ", I was in a very famous T.V. show",
+    selected: ""
   },
   {
     question: "Odd man out",
@@ -61,8 +61,8 @@ const allQuestionsAndAnswers = [
         d: "Russia",
       },
     ],
-    correct: d,
-    selected: "",
+    correct: "Russia",
+    selected: ""
   },
   {
     question: "LG electronics stands for",
@@ -74,8 +74,8 @@ const allQuestionsAndAnswers = [
         d: "Life's Good",
       },
     ],
-    correct: d,
-    selected: "",
+    correct: "Life's Good",
+    selected: ""
   },
   {
     question: "Lionel ____ Messi?",
@@ -87,8 +87,8 @@ const allQuestionsAndAnswers = [
         d: "Juan",
       },
     ],
-    correct: a,
-    selected: "",
+    correct: "Andres",
+    selected: ""
   },
   {
     question: "Kurt Cobain was associated with",
@@ -100,8 +100,8 @@ const allQuestionsAndAnswers = [
         d: "Nirvana",
       },
     ],
-    correct: d,
-    selected: "",
+    correct: "Nirvana",
+    selected: ""
   },
   {
     question: "2+2=",
@@ -113,8 +113,8 @@ const allQuestionsAndAnswers = [
         d: "8",
       },
     ],
-    correct: a,
-    selected: "",
+    correct: "5",
+    selected: ""
   },
   {
     question: "sin=",
@@ -126,11 +126,11 @@ const allQuestionsAndAnswers = [
         d: "adj/opp",
       },
     ],
-    correct: a,
-    selected: "",
+    correct: "opp/hypo",
+    selected: ""
   },
   {
-    question: "I pray the rains down in ___",
+    question: "I bless the rains down in ___",
     options: [
       {
         a: "America",
@@ -139,8 +139,8 @@ const allQuestionsAndAnswers = [
         d: "Atlanta",
       },
     ],
-    correct: b,
-    selected: "",
+    correct: "Africa",
+    selected: ""
   },
   {
     question: "Bill ___",
@@ -152,8 +152,8 @@ const allQuestionsAndAnswers = [
         d: "Gates",
       },
     ],
-    correct: d,
-    selected: "",
+    correct: "Gates",
+    selected: ""
   },
   {
     question: "All that glitters is not gold - _____?",
@@ -165,8 +165,8 @@ const allQuestionsAndAnswers = [
         d: "Twain",
       },
     ],
-    correct: a,
-    selected: "",
+    correct: "Shakespeare",
+    selected: ""
   },
   {
     question: "Odd man out",
@@ -178,8 +178,8 @@ const allQuestionsAndAnswers = [
         d: "Facebook",
       },
     ],
-    correct: a,
-    selected: "",
+    correct: "Cogniznt",
+    selected: ""
   },
   {
     question: "22/7=?",
@@ -191,8 +191,8 @@ const allQuestionsAndAnswers = [
         d: "3.142785",
       },
     ],
-    correct: b,
-    selected: "",
+    correct: "3.142857",
+    selected: ""
   },
   {
     question: "Generally, OS means?",
@@ -204,8 +204,8 @@ const allQuestionsAndAnswers = [
         d: "Operating solo",
       },
     ],
-    correct: c,
-    selected: "",
+    correct: "Operating System",
+    selected: ""
   },
   {
     question: "Odd man out",
@@ -214,11 +214,11 @@ const allQuestionsAndAnswers = [
         a: "Apple",
         b: "Pineapple",
         c: "Green Apple",
-        d: "Brocolli",
+        d: "Broccoli",
       },
     ],
-    correct: d,
-    selected: "",
+    correct: "Broccoli",
+    selected: ""
   },
   {
     question: "Google's parent company is",
@@ -230,8 +230,8 @@ const allQuestionsAndAnswers = [
         d: "Bell Labs",
       },
     ],
-    correct: b,
-    selected: "",
+    correct: "Alphabet Inc.",
+    selected: ""
   },
   {
     question: "Who is the author of Python",
@@ -243,8 +243,8 @@ const allQuestionsAndAnswers = [
         d: "Brendan Eich",
       },
     ],
-    correct: c,
-    selected: "",
+    correct: "Guido Van Rossum",
+    selected: ""
   },
 ];
 
