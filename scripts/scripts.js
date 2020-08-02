@@ -286,7 +286,7 @@ const calculateCorrectAnswers = (correctAnswers) => {
 const displayAnswer = document.getElementById('final-answer'); // There's a <p> tag with id="final answer" in index.html 
 
 const dispayNumberOfCorrectAnswers = () => {
-    // wanted to get the value of add from the calculateCorrectAnswers() here but don't know how to do it
+    // wanted to get the value of add from the calculateCorrectAnswers() here but don't know how to do it.
     const NumberOfCorrectAnswers =  calculateCorrectAnswers(); 
     displayAnswer.innerText = parseInt(NumberOfCorrectAnswers); 
 };
