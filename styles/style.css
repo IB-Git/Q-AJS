@@ -1,0 +1,48 @@
+.styleOptions{
+    color: gray;
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.styleQuestions{
+    
+    padding: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(245, 235, 219);
+}
+
+#final-answer-button{
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: rgb(228, 156, 24);
+    font-size: 25px;
+    margin-left: 650px;
+    color: rgb(226, 238, 226);
+    border-radius: 5px;
+}
+
+#final-answer-button:hover{
+    transition: ease-in 3s ease;
+    cursor: pointer;
+    background-color: white;
+    color:  rgb(228, 156, 24);
+    font-size: 28px ;
+
+}

@@ -257,8 +257,10 @@ for (let questionAndOptions in allQuestionsAndAnswers) {
 
     const displayQuestion = document.createElement("h4");
     const optionsForQuestion = document.createElement("p");
+    optionsForQuestion.classList.add('styleOptions')
     displayQuestion.innerText = allQuestionsAndAnswers[questionAndOptions].question;
-    optionsForQuestion.innerText = allQuestionsAndAnswers[questionAndOptions].options;
+    optionsForQuestion.innerText = JSON.stringify(allQuestionsAndAnswers[questionAndOptions].options); //without JSO.stringfy Object,object is displayed
+    displayQuestion.classList.add('styleQuestions')
     displayQuestion.appendChild(optionsForQuestion);
     sectionBody.appendChild(displayQuestion);
 }
