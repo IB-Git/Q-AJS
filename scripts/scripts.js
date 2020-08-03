@@ -259,7 +259,8 @@ for (let questionAndOptions in allQuestionsAndAnswers) {
     const optionsForQuestion = document.createElement("p");
     optionsForQuestion.classList.add('styleOptions')
     displayQuestion.innerText = allQuestionsAndAnswers[questionAndOptions].question;
-    optionsForQuestion.innerText = JSON.stringify(allQuestionsAndAnswers[questionAndOptions].options); //without JSO.stringfy Object,object is displayed
+    optionsForQuestion.innerText += allQuestionsAndAnswers[questionAndOptions].options; 
+    console.log(allQuestionsAndAnswers[questionAndOptions].options); //Did this to check what is 'allQuestionsAndAnswers[questionAndOptions].options' doing, prints all the oject.
     displayQuestion.classList.add('styleQuestions')
     displayQuestion.appendChild(optionsForQuestion);
     sectionBody.appendChild(displayQuestion);
@@ -269,7 +270,7 @@ for (let questionAndOptions in allQuestionsAndAnswers) {
 // loop for calculating number of correct answers
 
 for (i = 0; i < allQuestionsAndAnswers.length; i++) {
-  if (allQuestionsAndAnswers[i].selected === correct) {
+  if (allQuestionsAndAnswers[i].selected === allQuestionsAndAnswers.correct) {
     calculateCorrectAnswers(i);
   } else {
     console.log("nothing much"); // couldn't understand what to write here so did this
